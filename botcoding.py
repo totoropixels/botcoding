@@ -20,7 +20,7 @@ class aclient(discord.Client):
         print(f"Ready & logged in as {self.user}.")
 
 load_dotenv()
-BOT_TOKEN = "MTEwNTk4ODE2NDU0MTIyMjk2Mw.GTLvbw.DYj78LCIdyDWq1b-5NFeSAoUvzM3ZkQYFhpkBE"
+BOT_TOKEN = ""
 
 intents = discord.Intents.all()
 intents.message_content = True
